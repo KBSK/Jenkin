@@ -48,4 +48,5 @@ stage("Create new tag") {
             }
         }
 
+}
 }   
