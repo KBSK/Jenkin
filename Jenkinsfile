@@ -25,7 +25,7 @@ stage("Create new tag") {
                expression {env.BRANCH_NAME == 'master'}
             }                     
             steps {
-             sshagent (credentials: ['test-git-tag'])                        
+             sshagent (credentials: ['sshing'])                        
                 {
                 script {
                    
